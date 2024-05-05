@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: default
+pool: kins
 
 steps:
 - task: Maven@4
