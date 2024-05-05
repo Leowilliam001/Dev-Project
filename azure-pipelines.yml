@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: kins
+pool: sri
 
 steps:
 - task: Maven@4
@@ -20,4 +20,5 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+    
 
